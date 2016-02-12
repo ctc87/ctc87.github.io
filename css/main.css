@@ -1,0 +1,56 @@
+html {
+    width:100%;
+    
+}
+body {
+    background-image:url("../img/back.jpg");
+    background-size: 100%;
+}
+
+#title {
+    text-align:center;
+}
+
+#mage img{
+    width:100px;
+    height:auto;
+}
+
+.finalFantasyMenu {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border:ridge 5px white;
+    background-color:blue;
+    color:white;
+    font-size:50px;
+    padding:20px;
+    margin:10%;
+    font-family:"Final Fantasy 3/6 Font Regular";
+}
+.lineaFinalFantasyMenu div {
+    display:inline;
+}
+
+.cursor img {
+    /*position:relative;*/
+    /*display:none;*/
+    /*top:15px;*/
+}
+/*
+// For devices smaller than 400px:
+body {
+    background-image: url('img_smallflower.jpg'); 
+}
+
+// For devices 400px and larger:
+@media only screen and (min-device-width: 400px) {
+    body { 
+        background-image: url('img_flowers.jpg'); 
+    }
+}
+
+*/
+
+
+
