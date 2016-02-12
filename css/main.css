@@ -1,21 +1,62 @@
+/* retoques html */
 html {
     width:100%;
     
 }
+
+/* cuerpo pagina */
 body {
     background-image:url("../img/back.jpg");
     background-size: 100%;
+	margin:0;
+	padding:0;
 }
 
+/* cabecera de la pagina */
 #title {
     text-align:center;
 }
 
-#mage img{
-    width:100px;
-    height:auto;
+/*  div de instrucciones para la navegación */ 
+#nav {
+    position:absolute;
+    right: 1%;
+    top:20%;
+    background-color:white;
+    width:10%;
+    text-align:center;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    padding:1.5%;
+    
 }
 
+
+/*  imagen gato */ 
+#img img {
+    width:10%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+/* imagenes teclas */
+.keyImg {
+    width:50px;
+}
+
+/* flecha parpadeante */
+#flecha {
+        font-size:20px;
+          animation: blinker 0.6s linear infinite;
+} 
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+/* menu tipo final fantasy */
 .finalFantasyMenu {
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
@@ -25,32 +66,49 @@ body {
     color:white;
     font-size:50px;
     padding:20px;
-    margin:10%;
+    margin-left:5%;
+    margin-right:15%;
     font-family:"Final Fantasy 3/6 Font Regular";
 }
 .lineaFinalFantasyMenu div {
     display:inline;
 }
 
-.cursor img {
-    /*position:relative;*/
-    /*display:none;*/
-    /*top:15px;*/
-}
-/*
-// For devices smaller than 400px:
-body {
-    background-image: url('img_smallflower.jpg'); 
+/* pseudoclases de enlaces */
+a:link   
+{   
+ text-decoration:none;   
+} 
+
+a:visited   
+{   
+ text-decoration:none;  
+ color:white;
+} 
+
+/* footer */
+#copyright {
+    background: #172d4f;
+    height: 30px;
+    width: 100%;
+    margin-top: 550px;
+    text-align: center;
+    color: grey;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
 }
 
-// For devices 400px and larger:
-@media only screen and (min-device-width: 400px) {
-    body { 
-        background-image: url('img_flowers.jpg'); 
-    }
-}
-
-*/
+a.nounderline:link {   
+    text-decoration:none;
+    color:white;
+    font-style: italic;
+}  
+a.nounderline:visited {   
+    text-decoration:none;
+    color:white;
+    font-style: italic;
+} 
 
 
 
