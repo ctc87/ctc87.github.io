@@ -44,7 +44,7 @@ $(document).ready(function(){
       			window.open("http://ctc87.github.io/Practicas_PL/", '_blank')
     		break;
     		case 2:
-      			window.open("#", '_blank')
+      			window.open("https://practicas-ayedda-ctc87.c9users.io", '_blank')
         	break;
     		case 3:
       			window.open("#", '_blank')
