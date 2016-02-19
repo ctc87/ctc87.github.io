@@ -14,6 +14,19 @@ $(document).ready(function(){
  		 
 	});
 	
+/* aparecer y desparecer ventana*/	
+$(document).ready(function(){
+		// ocultando ventana
+ 		$("#botonCerrar").click(function(){
+			$("#navPopUp").hide(1000);
+ 		});
+ 		 
+ 		 $("#helpButon").click(function() {
+ 			if(document.getElementById("navPopUp").style.display == "none")
+ 			$("#navPopUp").show(1000);    
+ 		 });
+	});
+	
  $(document).keydown(function(e){
       if(e.keyCode == 87) { // w
       	//ocultamos el puntero
